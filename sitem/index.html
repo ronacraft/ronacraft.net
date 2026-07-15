@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RonaCraft - Skyblock Deneyimini Keşfet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ÜST MENÜ (NAVBAR) -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-icon">💠</span> RonaCraft
+        </div>
+        <ul class="nav-links">
+            <li><a href="#anasayfa">Ana Sayfa</a></li>
+            <li><a href="#duyurular">Duyurular</a></li>
+            <li><a href="#destek">Destek</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <a href="#" class="btn-login" onclick="openModal('loginModal')">Giriş Yap</a>
+            <a href="#" class="btn-register" onclick="openModal('registerModal')">Kayıt Ol</a>
+        </div>
+    </nav>
+
+    <!-- 1. BÖLÜM: ANA EKRAN -->
+    <header id="anasayfa" class="hero-section">
+        <div class="hero-content">
+            <div class="badge">Yeni Sezon - Skyblock 2.0</div>
+            <h1 class="main-title">RONACRAFT</h1>
+            <p class="subtitle">Skyblock deneyimini tamamen yeniden keşfet.</p>
+            
+            <div class="hero-actions">
+                <a href="#" class="btn-primary">🎮 Sunucuya Katıl</a>
+                <a href="#" class="btn-discord">👾 Discord'a Katıl</a>
+            </div>
+
+            <div class="ip-box">
+                <span class="ip-text">mc.ronacraft.net</span>
+                <button class="btn-copy">📋 Kopyala</button>
+            </div>
+            <div class="version-info">Sürüm: 1.16.5 - 1.21.1</div>
+        </div>
+
+        <div class="stats-container">
+            <div class="stat-card">
+                <span class="stat-title">👥 Aktif Oyuncular</span>
+                <span class="stat-value">350</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-title">💬 Discord Üyeleri</span>
+                <span class="stat-value">8.500+</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-title">⚡ Uptime</span>
+                <span class="stat-value">99,9%</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-title">📦 Desteklenen Sürümler</span>
+                <span class="stat-value">1.16.5 - 1.21.1</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. BÖLÜM: DUYURULAR -->
+    <section id="duyurular" class="section-container">
+        <div class="glass-card text-center">
+            <div class="badge-outline">✨ RESMİ DUYURU</div>
+            <h2 class="section-title">RONACRAFT <span class="text-orange">AÇILIŞ<br>TARİHİ</span> BELLİ OLDU!</h2>
+            <p class="section-desc">Uzun süredir üzerinde çalıştığımız RonaCraft sunucusu, tüm yenilenen sistemleri, geliştirilmiş oynanışı ve yepyeni özellikleriyle sizlerle buluşuyor.</p>
+            
+            <div class="date-time-container">
+                <div class="info-box">
+                    <span class="info-label">📅 Tarih</span>
+                    <span class="info-value">20.07.2026</span>
+                </div>
+                <div class="info-box">
+                    <span class="info-label">⏰ Saat</span>
+                    <span class="info-value">19:00</span>
+                </div>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item">✔️ Yenilenmiş oyun sistemleri</div>
+                <div class="feature-item">✔️ Açılışa özel etkinlikler</div>
+                <div class="feature-item">✔️ Geliştirilmiş ekonomi</div>
+                <div class="feature-item">✔️ Dengeli Skyblock deneyimi</div>
+            </div>
+
+            <a href="#" class="btn-discord-large">👾 Discord'dan Güncellemeleri Takip Et</a>
+        </div>
+    </section>
+
+    <!-- 3. BÖLÜM: DESTEK / TOPLULUK -->
+    <section id="destek" class="section-container">
+        <div class="glass-card support-layout">
+            <div class="support-left">
+                <div class="badge-outline">👾 TOPLULUK</div>
+                <h2 class="section-title text-left">Topluluğa <span class="text-purple">Katıl</span></h2>
+                <p class="section-desc text-left">Duyuruları ilk sen öğren, etkinliklere katıl, ekibe ulaş ve binlerce oyuncuyla sohbet et. RonaCraft topluluğu Discord'da.</p>
+                
+                <div class="discord-stats">
+                    <div class="info-box">
+                        <span class="info-label">👥 Discord Üyeleri</span>
+                        <span class="info-value">161</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="info-label">🟢 Çevrimiçi</span>
+                        <span class="info-value">66</span>
+                    </div>
+                </div>
+                <a href="#" class="btn-discord-large btn-discord-left">👾 Discord'a Katıl <span class="vanity-url">/JYFNubY9S</span></a>
+            </div>
+            
+            <div class="support-right">
+                <div class="discord-widget">
+                    <div class="widget-header">
+                        <span class="widget-logo">👾 RonaCraft</span>
+                        <span class="widget-status">🟢 Çevrimiçi</span>
+                    </div>
+                    <div class="widget-channel">
+                        <span class="channel-name"># duyurular</span>
+                        <span class="channel-msg">🎉 Açılış 20 Temmuz!</span>
+                    </div>
+                    <div class="widget-channel">
+                        <span class="channel-name"># etkinlikler</span>
+                        <span class="channel-msg">Açılışa özel ödüller...</span>
+                    </div>
+                    <div class="widget-channel">
+                        <span class="channel-name"># destek</span>
+                        <span class="channel-msg">Ekibimiz 7/24 yanında</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODALLAR (GİRİŞ VE KAYIT PENCERELERİ) -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content glass-card">
+            <span class="close" onclick="closeModal('loginModal')">&times;</span>
+            <h2 class="text-orange" style="margin-bottom: 20px;">Giriş Yap</h2>
+            <input type="text" placeholder="Kullanıcı Adı" class="modal-input">
+            <input type="password" placeholder="Şifre" class="modal-input">
+            <button class="btn-primary w-100">Giriş</button>
+        </div>
+    </div>
+
+    <div id="registerModal" class="modal">
+        <div class="modal-content glass-card">
+            <span class="close" onclick="closeModal('registerModal')">&times;</span>
+            <h2 class="text-orange" style="margin-bottom: 20px;">Kayıt Ol</h2>
+            <input type="text" placeholder="Kullanıcı Adı" class="modal-input">
+            <input type="email" placeholder="E-posta" class="modal-input">
+            <input type="password" placeholder="Şifre" class="modal-input">
+            <button class="btn-primary w-100">Kayıt Ol</button>
+        </div>
+    </div>
+
+    <!-- Pencereleri çalıştıran Javascript -->
+    <script>
+        function openModal(id) {
+            document.getElementById(id).style.display = 'flex';
+        }
+        function closeModal(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
